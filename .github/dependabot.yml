@@ -13,6 +13,14 @@ updates:
     labels:
       - "dependencies"
       - "pip"
+  - package-ecosystem: "pip"
+    directory: "app/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "pip"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
