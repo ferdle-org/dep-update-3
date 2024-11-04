@@ -124,10 +124,10 @@ search = 'prowler_version = "{current_version}"'
 #  "."
 #]
 
-[tool.pytest_env]
+#[tool.pytest_env]
 # For Moto and Boto3 while testing AWS
-AWS_ACCESS_KEY_ID = 'testing'
-AWS_DEFAULT_REGION = 'us-east-1'
-AWS_SECRET_ACCESS_KEY = 'testing'
-AWS_SECURITY_TOKEN = 'testing'
-AWS_SESSION_TOKEN = 'testing'
+#AWS_ACCESS_KEY_ID = 'testing'
+#AWS_DEFAULT_REGION = 'us-east-1'
+#AWS_SECRET_ACCESS_KEY = 'testing'
+#AWS_SECURITY_TOKEN = 'testing'
+#AWS_SESSION_TOKEN = 'testing'
