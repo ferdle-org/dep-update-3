@@ -21,10 +21,6 @@ dev = [
     "vulture==2.12"
 ]
 
-[build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [tool.poetry.group.docs]
 optional = true
 
