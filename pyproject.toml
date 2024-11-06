@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A brief description of your project"
 authors = [{name = "Your Name", email = "your.email@example.com"}]
 license = {text = "MIT"}
-dependencies = ["alive-progress==3.1.5", "awsipranges==0.3.3", "tzlocal==5.2"]
+dependencies = ["alive-progress==3.2.0", "awsipranges==0.3.3", "tzlocal==5.2"]
 
 [project.optional-dependencies]
 dev = ["bandit==1.7.10", "vulture==2.12"
