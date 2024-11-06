@@ -7,7 +7,7 @@ license = {text = "MIT"}
 dependencies = ["alive-progress==3.1.5", "awsipranges==0.3.3", "tzlocal==5.2"]
 
 [project.optional-dependencies]
-dev = ["bandit==1.7.10", "vulture==2.12"
+dev = ["bandit==1.7.10", "vulture==2.13"
 ]
 [build-system]
 build-backend = "poetry.core.masonry.api"
